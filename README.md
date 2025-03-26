@@ -22,21 +22,6 @@ A C++ application that generates an image based on input file specifications, ma
 - First line: Number of columns and rows
 - Subsequent lines: Comma-separated positions to mark with 'X'
 
-## Example Input File
-5 3
-0,2
-1,3,4
-2
-
-## Example Output
-X X
- X X
-X X X
-
-Total number of positions: 15
-Positions with an X: 7
-Positions not used: 8
-
 ## Files
 - main.cpp: Program entry point and main logic
 - functions.h: Defines structures and functions for image generation
